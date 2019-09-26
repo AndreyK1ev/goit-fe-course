@@ -1,0 +1,33 @@
+.service__item {
+    min-width: 80px;
+    height: 170px;
+
+    &--icon {
+      width: 32px;
+      height: 32px;
+      fill: $secondary-bg-color;
+      text-align: right;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      &:hover {
+        fill: $primary-hover-color;
+      }
+    }
+  }
+  
+  .service__title {
+    @include text (14px, $font-primary, $primary-dark-color);
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-weight: 400;
+  }
+  
+  .service__text {
+    @include text (15px, $font-secondary, $secondary-dark-color);
+    line-height: 24px;
+    word-wrap: break-word;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 90px;
+  }

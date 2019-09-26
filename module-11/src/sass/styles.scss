@@ -1,0 +1,27 @@
+/*Import partials below */
+
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/fonts';
+@import 'normalize';
+@import 'base';
+
+/* component */
+@import 'component/container';
+@import 'component/flex';
+@import 'component/list';
+@import 'component/banner';
+@import 'component/logo';
+@import 'component/page-nav';
+@import 'component/site-navigation';
+@import 'component/page-header';
+@import 'component/header_btn';
+@import 'component/section';
+@import 'component/margin-top';
+@import 'component/service';
+@import 'component/correct';
+@import 'component/employee';
+@import 'component/socials';
+@import 'component/footer';
+@import 'component/footer-form';
+

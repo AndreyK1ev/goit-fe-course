@@ -1,0 +1,31 @@
+/* 3. Работаем с блоком Service */
+.section__title {
+  @include text (24px, $font-title, $primary-dark-color);
+    text-align: center;
+    font-weight: 400;
+    &::first-letter {
+        text-transform: uppercase;
+      }
+  }
+  
+
+  
+  .section__subtitle {
+    @include text (30px, $font-title, $primary-dark-color);
+    margin-top: 21px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-weight: 700;
+
+    &:after {
+        display: block;
+        content: "";
+        width: 60px;
+        height: 3px;
+        background: $secondary-grad-color;
+        margin: 40px auto 0 auto;
+      }
+  }
+  
